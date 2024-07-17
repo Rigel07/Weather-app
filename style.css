@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(242, 242, 242);
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    margin-top: 10vh;
+}
+
+.title{
+    font-size: 36px;
+}
+
+#searchBar{
+    width: 550px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    text-indent: 5px;
+}
+
+#searchBar:focus{
+    outline: none;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.searchBtn{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: black;
+}
+
+.searchBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: .1s ease-in;
+}
+
+.boxMain{
+    display: inline-grid;
+    grid-template-columns: 300px 225px;
+    grid-gap: 25px;
+    margin: 30px 25px 25px 25px;
+}
+
+.infoBox{
+    border-radius: 10px;
+}
+
+.locName{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.locTemp{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tempDesc{
+    text-align: justify;
+    margin: 10px;
+}
+
+.imgBox{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBox img{
+    width: 150px;
+}
